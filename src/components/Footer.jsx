@@ -1,4 +1,3 @@
-
 export default function Footer() {
   const tips = [
     "Gunakan minimal 12 karakter untuk keamanan ekstra.",
