@@ -10,9 +10,9 @@ export default function Footer() {
   return (
     <footer className="max-w-md mx-auto p-6 bg-cyan-50 rounded-lg border border-cyan-100">
       <h3 className="text-cyan-800 font-bold mb-3 underline">Tips Keamanan:</h3>
-      <ul className="list-disc list-inside text-slate-600 text-sm space-y-2">
+      <ol className="list-decimal list-inside text-justify text-slate-600 text-sm space-y-2">
         {tips.map((tip, index) => <li key={index}>{tip}</li>)}
-      </ul>
+      </ol>
     </footer>
   );
 }
